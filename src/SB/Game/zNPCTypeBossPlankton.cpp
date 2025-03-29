@@ -10,6 +10,12 @@ void zNPCBPlankton::update_animation(float)
 {
 }
 
+void zNPCBPlankton::here_boy()
+{
+    this[0x2b7] = (zNPCBPlankton)0x0;
+    return;
+}
+
 S32 zNPCBPlankton::IsAlive()
 {
     return 1;

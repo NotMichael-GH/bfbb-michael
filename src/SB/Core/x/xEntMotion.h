@@ -123,7 +123,7 @@ struct xEntMPData
     xQuat bquat;
 };
 
-struct xEntMechData
+struct xEnt 
 {
     xVec3 apos;
     xVec3 bpos;
